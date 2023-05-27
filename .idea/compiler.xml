@@ -10,9 +10,6 @@
         <module name="event-planner" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="event-planner" target="20" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
