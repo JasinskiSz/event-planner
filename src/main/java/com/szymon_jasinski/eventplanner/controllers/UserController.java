@@ -4,13 +4,13 @@ import com.szymon_jasinski.eventplanner.dtos.RegisterDTO;
 import com.szymon_jasinski.eventplanner.dtos.UserDTO;
 import com.szymon_jasinski.eventplanner.entities.User;
 import com.szymon_jasinski.eventplanner.services.UserService;
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import javax.validation.Valid;
 import java.net.URI;
 
 @RestController
