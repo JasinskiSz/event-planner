@@ -1,9 +1,9 @@
 package com.szymon_jasinski.eventplanner.services;
 
 import com.szymon_jasinski.eventplanner.entities.User;
+import com.szymon_jasinski.eventplanner.exceptions.ObjectNotFoundException;
 import com.szymon_jasinski.eventplanner.repositories.UserRepository;
 import lombok.AllArgsConstructor;
-import org.hibernate.ObjectNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
